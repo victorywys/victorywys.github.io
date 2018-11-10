@@ -5,12 +5,8 @@
 
 .mainContext
 {
-    border-bottom:solid 1px #BDBDBD;
-    border-left:solid 1px #BDBDBD;
-    border-right:solid 1px #BDBDBD;
-    width:1080px;
-    height:2300px;
-    background-color:#FFFCEC;
+    width:100%;
+    height:200px;
     margin:0;
     padding: 0;
     position:relative;
@@ -21,25 +17,14 @@
 .leftContext
 {
     float: left;
-    width: 750px;
-    border-bottom: 1px solid #BDBDBD;
+    width: 80%;
 }
 
-/*左侧主体内容1*/
-
-.leftContextdiv1
-{
-    float: left;
-    width: 750px;
-    height:320px;
-    border-bottom: 1px solid #BDBDBD;
-}
 
 /*右侧主体*/
 .rightContext
 {
     float: right;
-    width: 328px;
+    width: 20%;
     height:2250px;
-    border-left: 1px solid #BDBDBD;
 }
